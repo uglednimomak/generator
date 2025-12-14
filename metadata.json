@@ -1,0 +1,5 @@
+{
+  "name": "DevCV GenAI",
+  "description": "An AI-powered CV generator that builds a portfolio based on your GitHub activity using Gemini.",
+  "requestFramePermissions": []
+}
