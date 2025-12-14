@@ -1,7 +1,8 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { Commit, Repository, CVData } from '../types';
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const apiKey = prompt('Enter your Google AI API Key:');
+const ai = new GoogleGenAI({ apiKey });
 
 // Model constants
 const MODEL_FAST = "gemini-2.5-flash";
